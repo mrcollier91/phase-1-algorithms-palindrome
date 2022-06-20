@@ -1,9 +1,14 @@
 function isPalindrome(word) {
   // Write your algorithm here
+ 
+ let revWord = word.split('').reverse().join('')
+ return word === revWord
 }
 
 /* 
   Add your pseudocode here
+  write a function that checks a string (word) to see if it is palidrome (same forwards and backwords)
+  use .re
 */
 
 /*
